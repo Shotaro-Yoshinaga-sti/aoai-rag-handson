@@ -6,12 +6,12 @@
 
 - GitHubのアカウント(GitHub Codespacesの120CPU時間の無料枠利用のためFreeでOK)
 - Azureのサブスクリプション
-- Azureのサブスクリプションで利用可能なAzure OpenAI Service
+    - 注意点：Azure OpenAI Serviceを利用開始するにはサブスクリプション毎に事前申請が必要です。未申請の場合、[公式ドキュメント](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-studio#prerequisites)を参考に申請をお願いします。
 
 ## Azureリソースの作成
 このハンズオンには、以下の2つのAzureリソースが必要です。
-1. Azure OpenAI Service
-2. Azure AI Search
+- Azure OpenAI Service
+- Azure AI Search
 
 1. **Azure OpenAI Serviceのリソース作成手順**
     - Azure Portalにアクセスします。画面上部の検索ボックスに「openai」と入力し、「Azure OpenAI」というサービスをクリックしてください。
@@ -64,7 +64,7 @@
 2. **Codespacesの作成**
     - フォークしたリポジトリに移動し、リポジトリ名の下にある「Code」ボタンをクリックします。
     ![Codespaces Image 1](assets/codespaces1.png)
-    - 「Codespaces」タブを選択し、「Create codespace on main」をクリックします。
+    - 「Codespaces」タブを選択し、「Create codespace on main(master)」をクリックします。
     ![Codespaces Image 2](assets/codespaces2.png)
 
 3. **Codespacesの起動と初期設定**
