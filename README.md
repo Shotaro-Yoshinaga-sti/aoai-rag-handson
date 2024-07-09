@@ -14,7 +14,7 @@
 - Azure AI Search
 
 1. **Azure OpenAI Serviceのリソース作成手順**
-    - Azure Portalにアクセスします。画面上部の検索ボックスに「openai」と入力し、「Azure OpenAI」というサービスをクリックしてください。
+    - [Azure Portal](https://portal.azure.com/)にアクセスします。画面上部の検索ボックスに「openai」と入力し、「Azure OpenAI」というサービスをクリックしてください。
     ![Image 1](assets/aoai1.png)
     - 次に「+作成」をクリックします。
     ![Image 2](assets/aoai2.png)
@@ -34,10 +34,10 @@
         ![Image 7](assets/aoai7.png)
         - 「+新しいデプロイの作成」をクリックします。
         ![Image 8](assets/aoai8.png)
-        以下の画像のとおり、入力・設定し「作成」をクリックしてモデルのデプロイを完了してください。特に、デプロイ名については間違いのないように注意してください。
+        以下の画像のとおり、入力・設定し「作成」をクリックしてモデルのデプロイを完了してください。特に、デプロイ名(gpt-35-turbo-deploy)については間違いのないように注意してください。
         ![Image 9](assets/aoai9.png)
     2. text-embedding-3-smallモデルのデプロイ
-        - gptモデルのデプロイと同様に「+新しいデプロイの作成」をクリックします。以下の画像のとおり、入力・設定し「作成」をクリックしてモデルのデプロイを完了してください。デプロイ名については間違いのないように注意してください。
+        - gptモデルのデプロイと同様に「+新しいデプロイの作成」をクリックします。以下の画像のとおり、入力・設定し「作成」をクリックしてモデルのデプロイを完了してください。デプロイ名(text-embedding-3-small-deploy)については間違いのないように注意してください。
         ![Image 10](assets/aoai10.png)
 
 2. **Azure AI Searchのリソース作成手順**
