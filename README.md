@@ -6,7 +6,6 @@
 
 - GitHubのアカウント(GitHub Codespacesの120CPU時間の無料枠利用のためFreeでOK)
 - Azureのサブスクリプション
-    - 注意点：Azure OpenAI Serviceを利用開始するにはサブスクリプション毎に事前申請が必要です。未申請の場合、[公式ドキュメント](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-studio#prerequisites)を参考に申請をお願いします。
 
 ## Azureリソースの作成
 このハンズオンには、以下の2つのAzureリソースが必要です。
